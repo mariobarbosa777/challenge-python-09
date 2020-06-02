@@ -1,9 +1,13 @@
+"""This module has the solution"""
+
 from typing import List
 
 
 class Solution:
+    """This class has the solution"""
 
     def duplicate_zeros(self, arr: List[int]):
+        """This fuction has the solution"""
         # AQUÍ VA TU SOLUCIÓN
         zeros = 0
         last_index = 0
@@ -24,3 +28,4 @@ class Solution:
                 index -= 1
                 arr[index] = 0
             index -= 1
+            
