@@ -4,6 +4,7 @@ from typing import List
 
 class Solution:
     """This class has the solution"""
+    
     def duplicate_zeros(self, arr: List[int]):
         """This fuction has the solution"""
         zeros = 0
