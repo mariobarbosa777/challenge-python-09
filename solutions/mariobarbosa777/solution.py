@@ -8,7 +8,6 @@ class Solution:
 
     def duplicate_zeros(self, arr: List[int]):
         """This fuction has the solution"""
-        # AQUÍ VA TU SOLUCIÓN
         zeros = 0
         last_index = 0
 
