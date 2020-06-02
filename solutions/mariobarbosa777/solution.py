@@ -9,12 +9,14 @@ class Solution:
         zeros = 0
         last_index = 0
         len_arr = len(arr)
+        
         for index in range(len_arr-1):
             if arr[index] == 0 and index + zeros + 1 < len_arr:
                 zeros += 1
                 last_index = index
-
+                
         index = len_arr - 1
+        
         while zeros > 0 and index - zeros >= 0:
             arr[index] = arr[index - zeros]
             if arr[index - zeros] == 0 and index - zeros <= last_index:
